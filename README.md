@@ -2,13 +2,13 @@
 
 <br>
 
-> ### Neste repositório você encontra o teste técnico para a vaga de **Desenvolvedor(a) Front-end da Foco Multimidia**.
+> ### Neste repositório você encontra o teste técnico para a vaga de **Desenvolvedor(a) Front-end na Foco Multimidia**.
 
 <br>
 
 ## O problema
 
-A **Foco Multimídia** é uma empresa de marketing que quer ampliar as suas atividades para o ramo de hotelaria, precisando de um sistema para que seus clientes donos de hotéis possam ter o controle dos seus estabelecimentos.
+A **Foco Multimídia** é uma empresa de tecnologia e marketing que quer ampliar as suas atividades para o ramo de hotelaria, precisando de um sistema para que seus clientes donos de hotéis possam ter o controle dos seus estabelecimentos.
 
 <br>
 
