@@ -59,6 +59,7 @@ Esperamos que o(a) candidato(a) consiga oferecer uma solução prática para o p
 > - Deixar o layout responsivo.
 > - Fazer a validação dos formulários.
 > - Filtro por data, nome, acomodação.
+> - Implementar máscaras nos inputs necessários.
 
 <br>
 
@@ -84,3 +85,10 @@ Esperamos que o(a) candidato(a) consiga oferecer uma solução prática para o p
 
 > - O avaliador estará disponível para tirar qualquer dúvida do(da) candidato(a). Portanto, sinta-se à vontade para perguntar.
 > - Não copie código de outras pessoas.
+
+<br>
+
+## Sobre o layout
+
+> - As imagens do layout e os ícones estarão disponíveis na pasta **assets** desse repositório.
+> - Os ícones utilizados no layout estão no site (https://feathericons.com).
