@@ -76,6 +76,17 @@ Esperamos que o(a) candidato(a) consiga oferecer uma solução prática para o p
 > - Utilizar TypeScript.
 > - Boa lógica de programação.
 > - Ter ideias inovadoras para complementar a aplicação.
+> - Git.
+> - Ser fiel ao layout.
+
+<br>
+
+## Github / Deploy
+
+<br>
+
+> - Quando finalizar o teste, subir o repositório para o Github.
+> - É importante que seja feito o deploy da aplicação e forneça um link de visualização.
 
 <br>
 
