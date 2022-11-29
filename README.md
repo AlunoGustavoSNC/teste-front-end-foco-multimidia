@@ -35,7 +35,7 @@ Esperamos que o(a) candidato(a) consiga oferecer uma solução prática para o p
 > **Básico**:
 >
 > - O(a) candidato(a) tem a liberdade de resolver o problema da forma que desejar, usando as tecnologias que tem experiência.
-> - Não será obrigatório seguir o layout apresentado, porem pode se inspirar nele.
+> - Não será obrigatório seguir o layout apresentado, porém pode se inspirar nele.
 > - Fazer a persistência dos dados no localStorage.
 
 <br>
