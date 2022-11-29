@@ -94,7 +94,7 @@ Esperamos que o(a) candidato(a) consiga oferecer uma solução prática para o p
 
 <br>
 
-> - É necessário uma descrição da solução usada para o desenvolvimento do teste.
+> - É necessário um README.md descrevendo a sua solução usada para o desenvolvimento do teste e instruções de como executá-lo.
 > - O avaliador estará disponível para tirar qualquer dúvida do(da) candidato(a). Portanto, sinta-se à vontade para perguntar.
 > - Não copie código de outras pessoas.
 
