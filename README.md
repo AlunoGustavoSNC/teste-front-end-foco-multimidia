@@ -104,3 +104,11 @@ Esperamos que o(a) candidato(a) consiga oferecer uma solução prática para o p
 
 > - As imagens do layout e os ícones estarão disponíveis na pasta **assets** desse repositório.
 > - Os ícones utilizados no layout estão no endereço: (https://feathericons.com).
+
+<br>
+
+## Para se inspirar
+
+> - Hotel Deals Dashboard Screens - (https://www.behance.net/gallery/160854923/Hotel-Deals-Dashboard-Screens).
+
+
