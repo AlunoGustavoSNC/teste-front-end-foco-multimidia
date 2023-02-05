@@ -60,10 +60,71 @@
 
     <!-- MAIN início -->
     <main>
+        <!-- DASHBOARD CONTENT -->
+        <section id="db-content" class="main-content is-active">
+            <!-- DASHBOARD HEADER -->
+            <section id="db-header">
+                <div id="reservas-carrinho">
+                    <h2>Todas as reservas</h2>
+                    <h2>Carrinhos</h2>
+                </div>
+                <div id="search">
+                    <input type="search" placeholder="Pesquisar" name="input-s" id="input-s">
+                    <object data="assets/icons/search.svg" type="image/svg+xml"></object>
+                </div>
+                <div id="new-reserve">
+                    <ion-icon name="add-outline"></ion-icon>
+                    <h2>Nova reserva</h2>
+                </div>
+            </section>
+            <!-- DASHBOARD MAIN -->
+            <section id="group-reserva">
+                <div id="db-header-reserva">
+                    <span class="span-header-reserva acomodacao">Acomodação</span>
+                    <span class="span-header-reserva">Hospedes</span>
+                    <span class="span-header-reserva">Check-in</span>
+                    <span class="span-header-reserva">Check-out</span>
+                </div>
+                <div id="db-reservas">
+                    <section class="db-reserva-item">
+                        <div class="db-reserva-content acomodacao">
+                            <div class="db-reserva-img">
+                                <img src="" alt="">
+                            </div>
+                            <span class="id">#798423</span>
+                            <h3>Quarto duplo</h3>
+                        </div>
+                        <div class="db-reserva-content">
+                            <h3>João Silva</h3>
+                            <span>2 adultos - 1 criança</span>
+                        </div>
+                        <div class="db-reserva-content">
+                            <h3>12/03/2022</h3>
+                            <span>11:30</span>
+                        </div>
+                        <div class="db-reserva-content">
+                            <h3>15/03/2022</h3>
+                            <span>12:30</span>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </section>
 
+        <!-- NOVA RESERVA CONTENT -->
+        <section id="nr-content" class="main-content">
+
+        </section>
+
+        <!-- CONFIGURAÇÔES CONTENT -->
+        <section id="config-content" class="main-content">
+
+        </section>
     </main>
     <!-- MAIN fim -->
 
-    <script src="script.js"></script>
+    <script src="sections.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
