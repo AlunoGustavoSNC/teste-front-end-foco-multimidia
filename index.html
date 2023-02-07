@@ -21,6 +21,7 @@
         </div>
         <!-- MEIO -->
         <div id="meio-header">
+            <h1 style="scale: 0;">FocoMultimídia - Reservas</h1>
             <img src="assets/icons/help-circle.svg" alt="ajuda" class="meio-btn">
             <img src="assets/icons/mail.svg" alt="email" class="meio-btn">
             <img src="assets/icons/settings.svg" alt="configuraçõs" class="meio-btn">
@@ -65,8 +66,8 @@
             <!-- DASHBOARD HEADER -->
             <section id="db-header">
                 <div id="reservas-carrinho">
-                    <h2>Todas as reservas</h2>
-                    <h2>Carrinhos</h2>
+                    <h2 id="all-reserve" class="is-active">Todas as reservas</h2>
+                    <h2 id="carrinho" class="">Carrinhos</h2>
                 </div>
                 <div id="search">
                     <input type="search" placeholder="Pesquisar" name="input-s" id="input-s">
@@ -78,47 +79,267 @@
                 </div>
             </section>
             <!-- DASHBOARD MAIN -->
-            <section id="group-reserva">
+            <section id="group-reserva" class="is-active">
                 <div id="db-header-reserva">
-                    <span class="span-header-reserva acomodacao">Acomodação</span>
-                    <span class="span-header-reserva">Hospedes</span>
-                    <span class="span-header-reserva">Check-in</span>
-                    <span class="span-header-reserva">Check-out</span>
+                    <span class="db-contain-reserva acomodacao">Acomodação</span>
+                    <span class="db-contain-reserva">Hospedes</span>
+                    <span class="db-contain-reserva">Check-in</span>
+                    <span class="db-contain-reserva">Check-out</span>
                 </div>
                 <div id="db-reservas">
+                    <!-- ITEM 1  -->
                     <section class="db-reserva-item">
-                        <div class="db-reserva-content acomodacao">
-                            <div class="db-reserva-img">
-                                <img src="" alt="">
+                        <div class="db-contain-reserva db-reserva-parte acomodacao">
+                            <div class="acomodacao-container-img">
+                                <img src="assets/accommodations/acccomodation-1.jpg" alt="Quarto" class="acomodacao-img">
                             </div>
-                            <span class="id">#798423</span>
-                            <h3>Quarto duplo</h3>
+                            <div class="acomodacao-container-text">
+                                <span class="id">#798423</span>
+                                <h3>Quarto duplo</h3>
+                            </div>
+                            
                         </div>
-                        <div class="db-reserva-content">
-                            <h3>João Silva</h3>
-                            <span>2 adultos - 1 criança</span>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="hospede">
+                                <h3>João Silva</h3>
+                                <span>2 adultos - 1 criança</span>
+                            </div>        
                         </div>
-                        <div class="db-reserva-content">
-                            <h3>12/03/2022</h3>
-                            <span>11:30</span>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="check-container">
+                                <h3>12/03/2022</h3>
+                                <span>11:30</span>
+                            </div>
                         </div>
-                        <div class="db-reserva-content">
-                            <h3>15/03/2022</h3>
-                            <span>12:30</span>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="check-container">
+                                <h3>15/03/2022</h3>
+                                <span>11:30</span>
+                            </div>
+                        </div>
+                        <div class="db-opcao">
+                            <div class="db-popup db-popup-active">
+                                <span>Editar</span>
+                                <hr>
+                                <span class="red">Deletar</span>
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                    </section>
+
+                    <!-- ITEM 2 -->
+                    <section class="db-reserva-item">
+                        <div class="db-contain-reserva db-reserva-parte acomodacao">
+                            <div class="acomodacao-container-img">
+                                <img src="assets/accommodations/acccomodation-2.jpg" alt="Quarto" class="acomodacao-img">
+                            </div>
+                            <div class="acomodacao-container-text">
+                                <span class="id">#798423</span>
+                                <h3>Quarto duplo</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="hospede">
+                                <h3>João Silva</h3>
+                                <span>2 adultos - 1 criança</span>
+                            </div>        
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="check-container">
+                                <h3>12/03/2022</h3>
+                                <span>11:30</span>
+                            </div>
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="check-container">
+                                <h3>15/03/2022</h3>
+                                <span>11:30</span>
+                            </div>
+                        </div>
+                        <div class="db-opcao">
+                            <div class="db-popup">
+                                <span>Editar</span>
+                                <hr>
+                                <span class="red">Deletar</span>
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                    </section>
+
+                    <!-- ITEM 3 -->
+                    <section class="db-reserva-item">
+                        <div class="db-contain-reserva db-reserva-parte acomodacao">
+                            <div class="acomodacao-container-img">
+                                <img src="assets/accommodations/acccomodation-3.jpg" alt="Quarto" class="acomodacao-img">
+                            </div>
+                            <div class="acomodacao-container-text">
+                                <span class="id">#798423</span>
+                                <h3>Quarto duplo</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="hospede">
+                                <h3>João Silva</h3>
+                                <span>2 adultos - 1 criança</span>
+                            </div>        
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="check-container">
+                                <h3>12/03/2022</h3>
+                                <span>11:30</span>
+                            </div>
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="check-container">
+                                <h3>15/03/2022</h3>
+                                <span>11:30</span>
+                            </div>
+                        </div>
+                        <div class="db-opcao">
+                            <div class="db-popup">
+                                <span>Editar</span>
+                                <hr>
+                                <span class="red">Deletar</span>
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                    </section>
+
+                    <!-- ITEM 4 -->
+                    <section class="db-reserva-item">
+                        <div class="db-contain-reserva db-reserva-parte acomodacao">
+                            <div class="acomodacao-container-img">
+                                <img src="assets/accommodations/acccomodation-4.jpg" alt="Quarto" class="acomodacao-img">
+                            </div>
+                            <div class="acomodacao-container-text">
+                                <span class="id">#798423</span>
+                                <h3>Quarto duplo</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="hospede">
+                                <h3>João Silva</h3>
+                                <span>2 adultos - 1 criança</span>
+                            </div>        
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="check-container">
+                                <h3>12/03/2022</h3>
+                                <span>11:30</span>
+                            </div>
+                        </div>
+                        <div class="db-contain-reserva db-reserva-parte">
+                            <div class="check-container">
+                                <h3>15/03/2022</h3>
+                                <span>11:30</span>
+                            </div>
+                        </div>
+                        <div class="db-opcao">
+                            <div class="db-popup">
+                                <span>Editar</span>
+                                <hr>
+                                <span class="red">Deletar</span>
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
                         </div>
                     </section>
                 </div>
+            </section>
+            <section id="carrinho-content">
+                <span class="not-found">NOT FOUND</span>
             </section>
         </section>
 
         <!-- NOVA RESERVA CONTENT -->
         <section id="nr-content" class="main-content">
+            <!-- DADOS DA RESERVA -->
+            <section id="dados-reserva-contain">
+                <!-- DADOS DA RESERVA -->
+                <div class="heeader-dados-reserva">
+                    <h2>Dados da reserva</h2>
+                    <div class="underline-progress"></div>
+                </div>
+                <div class="dados-reserva">
+                    <label for="Acomodacao">
+                        Acomodação
+                        <select name="dados-acomodacao" id="dados-acomodacao">
+                            <option value="add-acomodação" id="ph">Adicione uma Acomodação</option>
+                            <option value="quarto-1">Quarto 1</option>
+                            <option value="quarto-2">Quarto 2</option>
+                            <option value="quarto-3">Quarto 3</option>
+                            <option value="quarto-4">Quarto 4</option>
+                        </select>
+                    </label>
 
+                    <label for="check-in">
+                        Check-in
+                        <input type="text" name="check-in" id="check-in" class="check" placeholder="02/02/2022 19:30">
+                    </label>
+                    <label for="Check-out">
+                        Check-out
+                        <input type="text" name="check-out" id="check-out" class="check" placeholder="03/02/2022 12:30">    
+                    </label>
+
+                    <label for="hospedes">
+                        Hospedes
+                        <input type="text" name="hospedes" id="hospedes" class="h-p" placeholder="01 Adultos">
+                    </label>
+
+                    <label for="criancas">
+                        Crianças
+                        <input type="text" name="criancas" id="criancas" class="h-p" placeholder="02 Crianças">
+                    </label>
+                </div>
+                <!-- DADOS DO RESPONSÁVEL -->
+                <div class="heeader-dados-responsavel">
+                    <h2>Dados do responsável</h2>
+                    <div class="underline-progress"></div>
+                </div>
+                <div class="dados-responsavel">
+                    <label for="nome">
+                        Nome
+                        <input type="text" name="nome" id="nome">
+                    </label>
+
+                    <label for="sobrenome">
+                        Sobrenome
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </label>
+
+                    <label for="cpf">
+                        CPF
+                        <input type="text" name="cpf" id="cpf">
+                    </label>
+
+                    <label for="data-nascimento">
+                        Data de nascimento
+                        <input type="text" name="data-nascimento" id="data-nascimento">
+                    </label>
+
+                    <label for="telefone">
+                        Telefone
+                        <input type="tel" name="telefone" id="telefone">
+                    </label>
+
+                    <label for="celular">
+                        Celular
+                        <input type="tel" name="celular" id="celular">
+                    </label>
+
+                    <label for="email">
+                        E-mail
+                        <input type="email" name="email" id="email">
+                    </label>
+                </div>
+            </section>
         </section>
 
         <!-- CONFIGURAÇÔES CONTENT -->
         <section id="config-content" class="main-content">
-
+            <span class="not-found">NOT FOUND</span>
         </section>
     </main>
     <!-- MAIN fim -->
