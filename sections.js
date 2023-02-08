@@ -67,3 +67,41 @@ function setCarrinho(){
     gReserve.classList.remove('is-active')
     carContent.classList.add('is-active')
 }
+
+//POP UP
+
+const popUpClick = document.querySelectorAll('.icon-popup')
+const popUpp = document.querySelectorAll('.db-popup')
+
+popUpClick[0].addEventListener('click', PopUp0)
+popUpClick[1].addEventListener('click', PopUp1)
+popUpClick[2].addEventListener('click', PopUp2)
+popUpClick[3].addEventListener('click', PopUp3)
+
+function PopUp0(){
+    popUpp[0].classList.toggle('db-popup-active')
+    popUpp[1].classList.remove('db-popup-active')
+    popUpp[2].classList.remove('db-popup-active')
+    popUpp[3].classList.remove('db-popup-active')
+}
+
+function PopUp1(){
+    popUpp[0].classList.remove('db-popup-active')
+    popUpp[1].classList.toggle('db-popup-active')
+    popUpp[2].classList.remove('db-popup-active')
+    popUpp[3].classList.remove('db-popup-active')
+}
+
+function PopUp2(){
+    popUpp[0].classList.remove('db-popup-active')
+    popUpp[1].classList.remove('db-popup-active')
+    popUpp[2].classList.toggle('db-popup-active')
+    popUpp[3].classList.remove('db-popup-active')
+}
+
+function PopUp3(){
+    popUpp[0].classList.remove('db-popup-active')
+    popUpp[1].classList.remove('db-popup-active')
+    popUpp[2].classList.remove('db-popup-active')
+    popUpp[3].classList.toggle('db-popup-active')
+}

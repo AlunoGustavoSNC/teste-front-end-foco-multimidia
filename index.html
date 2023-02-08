@@ -41,19 +41,19 @@
     <nav>
         <!-- DASHBOARD -->
         <span id="dashboard" class="nav-item is-active">
-            <object data="assets/icons/command.svg" type="image/svg+xml"></object>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-command"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg>
             <span>Dashboard</span>
         </span>
 
         <!-- NOVA_RESERVA -->
         <span id="nova-reserva" class="nav-item">
-            <object data="assets/icons/plus.svg" type="image/svg+xml"></object>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             <span>Nova reserva</span>
         </span>
 
         <!-- CONFIGURAÇÕES -->
         <span id="configuracoes" class="nav-item">
-            <object data="assets/icons/settings.svg" type="image/svg+xml"></object>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#566589" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
             <span>Configurações</span>
         </span>
     </nav>
@@ -123,7 +123,7 @@
                                 <hr>
                                 <span class="red">Deletar</span>
                             </div>
-                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            <ion-icon name="ellipsis-horizontal" class="icon-popup"></ion-icon>
                         </div>
                     </section>
 
@@ -163,7 +163,7 @@
                                 <hr>
                                 <span class="red">Deletar</span>
                             </div>
-                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            <ion-icon name="ellipsis-horizontal" class="icon-popup"></ion-icon>
                         </div>
                     </section>
 
@@ -203,7 +203,7 @@
                                 <hr>
                                 <span class="red">Deletar</span>
                             </div>
-                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            <ion-icon name="ellipsis-horizontal" class="icon-popup"></ion-icon>
                         </div>
                     </section>
 
@@ -243,7 +243,7 @@
                                 <hr>
                                 <span class="red">Deletar</span>
                             </div>
-                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            <ion-icon name="ellipsis-horizontal" class="icon-popup"></ion-icon>
                         </div>
                     </section>
                 </div>
@@ -254,19 +254,19 @@
         </section>
 
         <!-- NOVA RESERVA CONTENT -->
-        <section id="nr-content" class="main-content">
+        <form id="nr-content" class="main-content">
             <!-- DADOS DA RESERVA -->
-            <section id="dados-reserva-contain">
+            <section id="dados-reserva-content">
                 <!-- DADOS DA RESERVA -->
-                <div class="heeader-dados-reserva">
+                <div class="header-dados-reserva">
                     <h2>Dados da reserva</h2>
                     <div class="underline-progress"></div>
                 </div>
                 <div class="dados-reserva">
-                    <label for="Acomodacao">
+                    <label for="dados-acomodacao">
                         Acomodação
                         <select name="dados-acomodacao" id="dados-acomodacao">
-                            <option value="add-acomodação" id="ph">Adicione uma Acomodação</option>
+                            <option value="" disabled selected>Selecione uma a comodação</option>
                             <option value="quarto-1">Quarto 1</option>
                             <option value="quarto-2">Quarto 2</option>
                             <option value="quarto-3">Quarto 3</option>
@@ -294,48 +294,97 @@
                     </label>
                 </div>
                 <!-- DADOS DO RESPONSÁVEL -->
-                <div class="heeader-dados-responsavel">
+                <div class="header-dados-responsavel">
                     <h2>Dados do responsável</h2>
                     <div class="underline-progress"></div>
                 </div>
                 <div class="dados-responsavel">
-                    <label for="nome">
-                        Nome
-                        <input type="text" name="nome" id="nome">
-                    </label>
+                    <div class="line-1">
+                        <label for="nome" id="nome">
+                            Nome
+                            <input type="text" name="nome" placeholder="Digite seu nome">
+                        </label>
 
-                    <label for="sobrenome">
-                        Sobrenome
-                        <input type="text" name="sobrenome" id="sobrenome">
-                    </label>
+                        <label for="sobrenome" id="sobrenome">
+                            Sobrenome
+                            <input type="text" name="sobrenome" placeholder="Digite seu sobrenome">
+                        </label>
 
-                    <label for="cpf">
-                        CPF
-                        <input type="text" name="cpf" id="cpf">
-                    </label>
-
-                    <label for="data-nascimento">
+                        <label for="cpf" id="cpf">
+                            CPF
+                            <input type="text" name="cpf" placeholder="Digite seu CPF">
+                        </label>
+                    </div>
+                    <div class="line-2">
+                        <label for="data-nascimento" id="data-nascimento">
                         Data de nascimento
-                        <input type="text" name="data-nascimento" id="data-nascimento">
-                    </label>
+                            <input type="text" name="data-nascimento" placeholder="09/10/1999">
+                        </label>
 
-                    <label for="telefone">
-                        Telefone
-                        <input type="tel" name="telefone" id="telefone">
-                    </label>
+                        <label for="telefone" id="telefone">
+                            Telefone
+                            <input type="tel" name="telefone" placeholder="Digite seu telefone">
+                        </label>
 
-                    <label for="celular">
-                        Celular
-                        <input type="tel" name="celular" id="celular">
-                    </label>
+                        <label for="celular" id="celular">
+                            Celular
+                            <input type="tel" name="celular" placeholder="Digite seu celular">
+                        </label>
 
-                    <label for="email">
-                        E-mail
-                        <input type="email" name="email" id="email">
-                    </label>
+                        <label for="email" id="email">
+                            E-mail
+                            <input type="email" name="email" placeholder="Digite seu e-mail">
+                        </label>
+                    </div>             
+                </div>
+                <!-- ENDEREÇO -->
+                <div class="header-endereco">
+                    <h2>Endereço</h2>
+                </div>
+                <div class="endereco">
+                    <div class="line-3">
+                        <label for="cep" id="cep">
+                            CEP
+                            <input type="text" name="cep" placeholder="46400-000">
+                        </label>
+
+                        <label for="cidade" id="cidade">
+                            Cidade
+                            <input type="text" name="cidade" placeholder="caetité">
+                        </label>
+
+                        <label for="estado" id="estado">
+                            Estado
+                            <input type="text" name="estado" placeholder="BA">
+                        </label>
+                    </div>
+                    <div class="line-4">
+                        <label for="rua" id="rua">
+                            Rua
+                            <input type="text" name="rua" placeholder="Av. Santana">
+                        </label>
+
+                        <label for="numero" id="numero">
+                            Número
+                            <input type="text" name="numero" placeholder="680">
+                        </label>
+
+                        <label for="bairro" id="bairro">
+                            Bairro
+                            <input type="text" name="bairro" placeholder="centro">
+                        </label>
+
+                        <label for="complemento" id="complemento">
+                            Complemento
+                            <input type="text" name="complemento" placeholder="Casa 2">
+                        </label>
+                    </div>
+                </div>
+                <div class="btn-content">
+                    <input type="submit" value="Fazer Reserva" id="btn-reserva">
                 </div>
             </section>
-        </section>
+        </form>
 
         <!-- CONFIGURAÇÔES CONTENT -->
         <section id="config-content" class="main-content">
